@@ -33,9 +33,7 @@ The following **additional** features are implemented:
 **Note: please be sure to 
 
 Here's a walkthrough of implemented required features:
-
-[<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />](https://www.loom.com/share/845cf6c92d9044d0963a621a33b5a7a3)
-
+[🎥 Watch the Video Walkthrough on Loom](https://www.loom.com/share/845cf6c92d9044d0963a621a33b5a7a3)
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  Add GIF tool here
 <!-- Recommended tools:
