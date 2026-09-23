@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Hollow Knight Bosses</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main class="container">
+    <header class="site-header">
+      <h1>🗡️ Hollow Knight Bosses</h1>
+      <p>A field guide to the greatest threats of Hallownest.</p>
+    </header>
+
+    <section class="boss-grid">
+      <% bosses.forEach(function(boss) { %>
+        <a class="boss-card" href="/bosses/<%= boss.slug %>">
+          <h3><%= boss.name %></h3>
+          <p class="boss-meta"><%= boss.area %> · <%= boss.health %> HP</p>
+          <span class="badge <%= boss.difficulty.toLowerCase().replace(' ', '-') %>">
+            <%= boss.difficulty %>
+          </span>
+        </a>
+      <% }); %>
+    </section>
+  </main>
+</body>
+</html>

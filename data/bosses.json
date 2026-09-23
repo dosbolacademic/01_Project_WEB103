@@ -1,0 +1,82 @@
+[
+  {
+    "slug": "false-knight",
+    "name": "False Knight",
+    "area": "Forgotten Crossroads",
+    "difficulty": "Easy",
+    "health": 250,
+    "description": "The first major boss most Knights encounter. False Knight is a hulking, armored husk who charges and slams the arena, revealing the fragile Failed Champion within once his shell cracks.",
+    "attacks": ["Ground pound shockwave", "Charging dash", "Jumping slam"],
+    "reward": "Vessel Fragment"
+  },
+  {
+    "slug": "hornet-protector",
+    "name": "Hornet Protector",
+    "area": "Greenpath",
+    "difficulty": "Medium",
+    "health": 300,
+    "description": "A swift, needle-wielding guardian who tests reflexes with rapid thread and silk attacks. Hornet fights fair, offering warnings before her deadliest moves.",
+    "attacks": ["Needle dash", "Silk bind trap", "Thread projectile"],
+    "reward": "Path to Deepnest unlocked"
+  },
+  {
+    "slug": "crystal-guardian",
+    "name": "Crystal Guardian",
+    "area": "Crystal Peak",
+    "difficulty": "Medium",
+    "health": 400,
+    "description": "A colossal beast encased in gleaming crystal that erupts from the mine floor, firing shard barrages and slamming its massive claws across the arena.",
+    "attacks": ["Crystal shard spray", "Claw slam", "Burrow charge"],
+    "reward": "Access to Crystal Peak depths"
+  },
+  {
+    "slug": "soul-master",
+    "name": "Soul Master",
+    "area": "Soul Sanctum",
+    "difficulty": "Hard",
+    "health": 700,
+    "description": "A once-brilliant scholar consumed by the pursuit of the Soul. He teleports across the arena, conjuring orbiting orbs and raining down arcane bolts.",
+    "attacks": ["Orbiting soul orbs", "Teleport slam", "Bolt barrage"],
+    "reward": "Vessel Fragment"
+  },
+  {
+    "slug": "broken-vessel",
+    "name": "Broken Vessel",
+    "area": "Deepnest / Ancient Basin",
+    "difficulty": "Hard",
+    "health": 900,
+    "description": "A cracked husk infested with the Infection, spawning parasitic minions and lashing out with sweeping needle strikes born of primal, unstable movement.",
+    "attacks": ["Needle sweep", "Infection spawn", "Leap slam"],
+    "reward": "Path to the Abyss"
+  },
+  {
+    "slug": "watcher-knights",
+    "name": "Watcher Knights",
+    "area": "Royal Waterways / Watcher's Spire",
+    "difficulty": "Hard",
+    "health": 1000,
+    "description": "A pair of animated royal guardians that fight in tandem, their long spears sweeping and thrusting in coordinated patterns that punish hesitation.",
+    "attacks": ["Spear thrust combo", "Sweeping slam", "Synchronized charge"],
+    "reward": "Kingsoul fragment access"
+  },
+  {
+    "slug": "mantis-lords",
+    "name": "Mantis Lords",
+    "area": "Fungal Wastes",
+    "difficulty": "Very Hard",
+    "health": 800,
+    "description": "Three deadly, honor-bound warriors who battle one at a time, striking with elegant, blade-fast precision that demands flawless timing.",
+    "attacks": ["Dash slash", "Overhead strike", "Double leap attack"],
+    "reward": "Mantis Claw"
+  },
+  {
+    "slug": "hollow-knight",
+    "name": "The Hollow Knight",
+    "area": "Black Egg Temple",
+    "difficulty": "Extreme",
+    "health": 1800,
+    "description": "The vessel sealed to contain the Radiance's Infection, twisted into a nightmarish final guardian. A relentless, multi-phase battle testing everything learned.",
+    "attacks": ["Nail slam wave", "Infection tendrils", "Rapid dash combo"],
+    "reward": "Ending progression"
+  }
+]

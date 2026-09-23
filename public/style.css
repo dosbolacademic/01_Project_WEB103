@@ -1,0 +1,103 @@
+:root {
+  --pico-font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+body {
+  background: linear-gradient(180deg, #0d0d14 0%, #1a1a24 100%);
+}
+
+header.site-header {
+  text-align: center;
+  padding: 2rem 1rem 1rem;
+}
+
+header.site-header h1 {
+  letter-spacing: 0.05em;
+  color: #e8e6f0;
+  margin-bottom: 0.25rem;
+}
+
+header.site-header p {
+  color: #9b97ad;
+}
+
+.boss-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.25rem;
+  margin-top: 1.5rem;
+}
+
+.boss-card {
+  background: #1f1f2c;
+  border: 1px solid #33334a;
+  border-radius: 0.5rem;
+  padding: 1.25rem;
+  text-decoration: none;
+  color: inherit;
+  transition: transform 0.15s ease, border-color 0.15s ease;
+  display: block;
+}
+
+.boss-card:hover {
+  transform: translateY(-4px);
+  border-color: #8c7ae6;
+}
+
+.boss-card h3 {
+  margin-bottom: 0.35rem;
+  color: #e8e6f0;
+}
+
+.boss-meta {
+  font-size: 0.85rem;
+  color: #9b97ad;
+  margin-bottom: 0.5rem;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.55rem;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin-right: 0.35rem;
+}
+
+.badge.easy { background: #2e7d32; color: #eafbea; }
+.badge.medium { background: #f9a825; color: #2b2100; }
+.badge.hard { background: #c0392b; color: #fdecea; }
+.badge.very-hard { background: #8e44ad; color: #f6ecfb; }
+.badge.extreme { background: #111; color: #ff4d4d; border: 1px solid #ff4d4d; }
+
+.boss-detail {
+  max-width: 700px;
+  margin: 2rem auto;
+  background: #1f1f2c;
+  border: 1px solid #33334a;
+  border-radius: 0.75rem;
+  padding: 2rem;
+}
+
+.boss-detail h1 {
+  color: #e8e6f0;
+}
+
+.boss-detail .boss-meta {
+  margin-bottom: 1rem;
+}
+
+.attack-list {
+  margin-top: 0.5rem;
+}
+
+.back-link {
+  display: inline-block;
+  margin-top: 1.5rem;
+}
+
+.not-found {
+  text-align: center;
+  padding: 4rem 1rem;
+  color: #e8e6f0;
+}

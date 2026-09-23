@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title><%= boss.name %> · Hollow Knight Bosses</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+  <link rel="stylesheet" href="/style.css" />
+</head>
+<body>
+  <main class="container">
+    <article class="boss-detail">
+      <h1><%= boss.name %></h1>
+      <p class="boss-meta">
+        <span class="badge <%= boss.difficulty.toLowerCase().replace(' ', '-') %>"><%= boss.difficulty %></span>
+        <%= boss.area %> · <%= boss.health %> HP
+      </p>
+      <p><%= boss.description %></p>
+
+      <h4>Attacks</h4>
+      <ul class="attack-list">
+        <% boss.attacks.forEach(function(atk) { %>
+          <li><%= atk %></li>
+        <% }); %>
+      </ul>
+
+      <h4>Reward</h4>
+      <p><%= boss.reward %></p>
+
+      <a class="back-link" href="/">← Back to all bosses</a>
+    </article>
+  </main>
+</body>
+</html>
